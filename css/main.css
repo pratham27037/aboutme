@@ -48,7 +48,7 @@ body {
   padding: 33px 20px 33px 20px;
 } */
 
-.main {
+.container {
   background-image: url("/src/ht.jpg");
   background-color: #cccccc;
   height: 800px;
@@ -69,14 +69,15 @@ body {
   font-size: 32px;
   float: left;
 }
-.footer-list {
-  float: right;
-}
-
 .footer-list li {
-  padding-bottom: 20px;
+  float: right;
+  list-style: none;
+  margin: 20px;
 }
 
+.footer-list li a {
+  text-decoration: none;
+}
 .intro {
   text-align: center;
   font-size: 30px;
